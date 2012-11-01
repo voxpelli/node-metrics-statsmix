@@ -1,11 +1,15 @@
 {
-  "name": "Metrics StatsMix Reporter",
+  "name": "metrics-statsmix",
   "version": "0.0.1",
-  "description": "A reporter for the hosted StatsMix server that's eg. available as a Heroku addon.",
+  "description": "A reporter for the StatsMix service that's eg. available as a Heroku addon.",
   "author": {
     "name" : "Pelle Wessman",
     "email": "pelle@kodfabrik.se",
     "url"  : "http://kodfabrik.se/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/voxpelli/node-metrics-statsmix.git"
   },
   "license": "MIT",
   "dependencies": {
