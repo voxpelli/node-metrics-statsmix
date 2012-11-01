@@ -1,0 +1,23 @@
+{
+  "name": "Metrics StatsMix Reporter",
+  "version": "0.0.1",
+  "description": "A reporter for the hosted StatsMix server that's eg. available as a Heroku addon.",
+  "author": {
+    "name" : "Pelle Wessman",
+    "email": "pelle@kodfabrik.se",
+    "url"  : "http://kodfabrik.se/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "underscore": ">=1.4.1 <1.5",
+    "request": ">=2.11.4 <2.12"
+  },
+  "engines":  {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "main": "./lib/statsmix",
+  "directories": {
+    "lib": "./lib"
+  }
+}
