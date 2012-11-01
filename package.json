@@ -1,6 +1,6 @@
 {
   "name": "metrics-statsmix",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A reporter for the StatsMix service that's eg. available as a Heroku addon.",
   "author": {
     "name" : "Pelle Wessman",
@@ -13,6 +13,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "metrics": ">=0.1.6 <0.2",
     "underscore": ">=1.4.1 <1.5",
     "request": ">=2.11.4 <2.12"
   },
